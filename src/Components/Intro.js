@@ -1,4 +1,14 @@
-const intro = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. Massa sapien faucibus et molestie ac feugiat sed. Turpis egestas maecenas pharetra convallis posuere morbi leo. Duis at consectetur lorem donec massa sapien faucibus et molestie. Purus sit amet luctus venenatis lectus. Pellentesque nec nam aliquam sem et tortor consequat id porta. Sapien et ligula ullamcorper malesuada. Fringilla ut morbi tincidunt augue interdum velit euismod. Vitae turpis massa sed elementum tempus egestas sed. Netus et malesuada fames ac turpis egestas integer eget aliquet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.
-Nisi est sit amet facilisis. Vitae congue eu consequat ac felis.`;
+import React from "react";
+import introImage from "./intro-image.png"
 
-export default intro;
+export default function Intro({ dark, id }) {
+  return (
+    <div className={"introduction"}>
+      <div className="section-content" id={id} style={{flexDirection: "row"}}>
+        <img src={introImage} alt={"people looking up to a computer screen"}/>
+        <p style={{float: "right"}}>Spectra is all about creating a safe and inviting environment for those who identify as female or other underrepresented genders in the tech space. We focus on learning new skills and connecting with like-minded people to help these young participants advance themselves in the tech world.</p>
+        <p>Spectra believes it's important to host events like these to help students and new grads get comfortable using skills they've learned to make their cool and creative ideas tangible.</p>
+      </div>
+    </div>
+  );
+}
