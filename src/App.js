@@ -20,7 +20,7 @@ class App extends Component {
 
         <Intro
           dark={true}
-          id="introduction"
+          id="section1"
         />
         <Section
           title="schedule"
