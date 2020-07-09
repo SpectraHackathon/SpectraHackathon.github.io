@@ -3,7 +3,11 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
-import dummyText from "./Components/DummyText";
+import intro from "./Components/Intro";
+import schedule from "./Components/Schedule";
+import team from "./Components/Team";
+import sponsors from "./Components/Sponsors";
+import contact from "./Components/Contacts";
 
 class App extends Component {
   render() {
@@ -11,32 +15,32 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Section
-          title="Section 1"
-          subtitle={dummyText}
+          title="intro"
+          subtitle={intro}
           dark={true}
           id="section1"
         />
         <Section
-          title="Section 2"
-          subtitle={dummyText}
+          title="schedule"
+          subtitle={schedule}
           dark={false}
           id="section2"
         />
         <Section
-          title="Section 3"
-          subtitle={dummyText}
+          title="team"
+          subtitle={team}
           dark={true}
           id="section3"
         />
         <Section
-          title="Section 4"
-          subtitle={dummyText}
+          title="sponsors"
+          subtitle={sponsors}
           dark={false}
           id="section4"
         />
         <Section
-          title="Section 5"
-          subtitle={dummyText}
+          title="contact"
+          subtitle={contact}
           dark={true}
           id="section5"
         />

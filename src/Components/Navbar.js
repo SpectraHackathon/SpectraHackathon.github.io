@@ -27,7 +27,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                Intro
               </Link>
             </li>
             <li className="nav-item">
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                Schedule
               </Link>
             </li>
             <li className="nav-item">
@@ -51,7 +51,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 3
+                Team
               </Link>
             </li>
             <li className="nav-item">
@@ -63,7 +63,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 4
+                Sponsors
               </Link>
             </li>
             <li className="nav-item">
@@ -75,7 +75,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 5
+                Contacts
               </Link>
             </li>
           </ul>
