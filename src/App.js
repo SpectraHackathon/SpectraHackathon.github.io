@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
 import Section from "./Components/Section";
 import intro from "./Components/Intro";
 import schedule from "./Components/Schedule";
@@ -13,9 +14,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <Navbar />
+        <Main />
+
         <Section
-          title="intro"
           subtitle={intro}
           dark={true}
           id="section1"
