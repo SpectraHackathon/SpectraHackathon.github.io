@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Section from "./Components/Section";
-import intro from "./Components/Intro";
+import Intro from "./Components/Intro";
 import schedule from "./Components/Schedule";
 import team from "./Components/Team";
 import sponsors from "./Components/Sponsors";
@@ -18,10 +18,9 @@ class App extends Component {
         <Navbar />
         <Main />
 
-        <Section
-          subtitle={intro}
+        <Intro
           dark={true}
-          id="section1"
+          id="introduction"
         />
         <Section
           title="schedule"
