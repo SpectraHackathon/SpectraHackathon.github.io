@@ -55,7 +55,7 @@
 
 .background-img{
   background-image: url("background-img.png");
-  width: 1420px;
+  width: 100%;
   height: 1000px;
 
 }
