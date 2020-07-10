@@ -1,7 +1,14 @@
 :root {
   --off-white: #fafafa;
 }
+
+@font-face {
+  font-family: 'MontserratAlternates';
+  src: url('./Components/Fonts/MontserratAlternates-Regular.ttf') format('truetype');
+}
+
 .nav {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
   background-color: var(--off-white);
   position: sticky;
   top: 0px;
@@ -57,6 +64,7 @@
 }
 
 .section-content {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
