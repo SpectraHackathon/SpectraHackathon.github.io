@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
@@ -41,10 +40,16 @@ class App extends Component {
           id="section4"
         />
         <Section
-          title="contact"
+          title="FAQs"
           subtitle={contact}
           dark={true}
           id="section5"
+        />
+        <Section
+          title="contact"
+          subtitle={contact}
+          dark={false}
+          id="section6"
         />
       </div>
     );

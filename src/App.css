@@ -7,6 +7,11 @@
   src: url('./Components/Fonts/MontserratAlternates-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('./Components/Fonts/Roboto-Medium.ttf') format('truetype');
+}
+
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
   background-color: var(--off-white);
@@ -19,8 +24,8 @@
 }
 
 .nav-logo {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 .nav-logo:hover {
@@ -68,4 +73,38 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+}
+
+.introduction {
+  margin: 0 auto;
+  padding: 150px;
+}
+
+.intro-content-top {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.intro-image {
+  height: auto;
+}
+
+.intro-text {
+  font-family: 'RobotoMedium', Arial, sans-serif;
+  color: #114A75;
+  line-height: 35px;
+}
+
+.intro-text-div {
+  padding: 80px;
+}
+
+.intro-content-bottom {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
+  color: #114A75;
+}
+
+.intro-content-values {
+  color: #114A75;
+  text-align: center;
 }
