@@ -60,7 +60,65 @@
   max-width: 100%;
   width: 100%;
   height: 1000px;
+  font-family: 'MontserratAlternates', Arial, sans-serif;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
 
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.main-title {
+  color: white;
+  font-size: 96px;
+  margin-bottom: 0px;
+}
+
+.main-button {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  max-height: 65px;
+  width: 60%;
+}
+
+.main-aref {
+  margin-bottom: 25px;
+}
+
+.main-button-hacker {
+  background-color: #6297C1
+}
+
+.main-button-mentor {
+  background-color: #F7A3A3
+}
+
+.main-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main-date-text {
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .section {
