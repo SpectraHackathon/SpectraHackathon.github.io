@@ -1,5 +1,6 @@
 import React from "react";
 import introImage from "./intro-image.png"
+import placeholder from "./placeholder.png"
 
 export default function Intro({ dark, id }) {
   return (
@@ -13,6 +14,23 @@ export default function Intro({ dark, id }) {
       </div>
       <div className="intro-content-bottom">
         <h1 className="intro-content-values">Our Values</h1>
+        <div className="list-values">
+          <div className="value">
+            <img className="value-image" src={placeholder} alt={"illustration of our values"}/>
+            <h1>inclusitiviy</h1>
+            <p className="value-text">We aim to foster inclusivity for people of all backgrounds. We want Spectra to have an inclusive atmosphere no matter what skill level you’re at.</p>
+          </div>
+          <div className="value">
+            <img className="value-image" src={placeholder} alt={"illustration of our values"}/>
+            <h1>diversity</h1>
+            <p className="value-text">We look foward to hosting an event where people from diverse backgrounds can come and join for a shared passion in technology.</p>
+          </div>
+          <div className="value">
+            <img className="value-image" src={placeholder} alt={"illustration of our values"}/>
+            <h1>collaboration</h1>
+            <p className="value-text">We hope to provide an environment where collaboration is valued and people can bounce ideas off each other.</p>
+          </div>
+        </div>
       </div>
     </div>
   );
