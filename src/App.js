@@ -55,13 +55,13 @@ class App extends Component {
         />
         <Section
           title="FAQs"
-          subtitle={contact}
+          subtitle={sponsors}
           dark={true}
           id="section5"
         />
         <Section
           title="contact"
-          subtitle={contact}
+          subtitle={sponsors}
           dark={false}
           id="section6"
         />
