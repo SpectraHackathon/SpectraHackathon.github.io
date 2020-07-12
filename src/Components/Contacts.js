@@ -1,4 +1,12 @@
-const contact = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. Massa sapien faucibus et molestie ac feugiat sed. Turpis egestas maecenas pharetra convallis posuere morbi leo. Duis at consectetur lorem donec massa sapien faucibus et molestie. Purus sit amet luctus venenatis lectus. Pellentesque nec nam aliquam sem et tortor consequat id porta. Sapien et ligula ullamcorper malesuada. Fringilla ut morbi tincidunt augue interdum velit euismod. Vitae turpis massa sed elementum tempus egestas sed. Netus et malesuada fames ac turpis egestas integer eget aliquet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.
-Nisi est sit amet facilisis. Vitae congue eu consequat ac felis.`;
+import React from "react";
 
-export default contact;
+export default function Contact({ id }) {
+  return (
+    <div className="contact">
+      <h1>Contact us</h1>
+      <h2 className="contact-headline">Want to get involved or have any q's?</h2>
+      <a className="main-aref main-button contact-button" href="mailto:hello@sospectra.com" target="_blank">
+        Email us</a>
+    </div>
+  );
+}
