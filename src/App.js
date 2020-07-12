@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./App2.css";
 import Navbar from "./Components/Navbar";
 import Main from "./Components/Main";
 import Section from "./Components/Section";
@@ -8,7 +9,7 @@ import schedule from "./Components/Schedule";
 import teamData from "./Components/teamData";
 import Team from "./Components/Team";
 import sponsors from "./Components/Sponsors";
-import contact from "./Components/Contacts";
+import Contact from "./Components/Contacts";
 
 class App extends Component {
 
@@ -59,10 +60,8 @@ class App extends Component {
           dark={true}
           id="section5"
         />
-        <Section
-          title="contact"
-          subtitle={sponsors}
-          dark={false}
+        <Contact
+          title="Contact"
           id="section6"
         />
       </div>
