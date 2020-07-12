@@ -17,9 +17,9 @@ export default class Main extends Component {
               <h2 className="main-date-text">8/8-8/9/2020</h2>
               <img src={line} alt={"horizontal white line"}/>
             </div>
-            <a className="main-aref main-button main-button-hacker" href="https://tinyurl.com/sospectra" target="_blank">
+            <a className="main-aref main-button main-button-hacker" href="https://tinyurl.com/sospectra" target="_blank" rel="noopener noreferrer">
               register to hack</a>
-            <a className="main-button main-button-mentor" href="https://tinyurl.com/spectramentors" target="_blank">
+            <a className="main-button main-button-mentor" href="https://tinyurl.com/spectramentors" target="_blank" rel="noopener noreferrer">
               register to mentor</a>
           </div>
 
