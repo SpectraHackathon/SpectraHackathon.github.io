@@ -122,19 +122,13 @@
   margin-right: 10px;
 }
 
-.section {
-}
-
-.section-dark {
-  background: #6F93B9;
-  color: white;
-}
-
 .section-content {
   font-family: 'MontserratAlternates', Arial, sans-serif;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 150px;
+  text-align: center;
+  border-style: solid;
 }
 
 .introduction {
@@ -155,6 +149,12 @@
   box-sizing: border-box;
 }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .col-lg {
   flex-basis: 0;
   flex-grow: 1;
@@ -164,6 +164,12 @@
   padding-right: 20px;
   padding-left: 15px;
   box-sizing: border-box;
+}
+
+.col-sched {
+  display: inline-flex;
+  float: left;
+  width: 50%;
 }
 
 .intro-image {
