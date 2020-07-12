@@ -5,12 +5,26 @@ import Main from "./Components/Main";
 import Section from "./Components/Section";
 import Intro from "./Components/Intro";
 import schedule from "./Components/Schedule";
-import team from "./Components/Team";
+import teamData from "./Components/teamData";
+import Team from "./Components/Team";
 import sponsors from "./Components/Sponsors";
 import contact from "./Components/Contacts";
 
 class App extends Component {
+
+  constructor() {
+        super()
+        this.state = {
+            teams:teamData
+        }
+
+    }
+
   render() {
+
+     const team = this.state.teams.map(item => <Team key={item.id} item={item}/>)
+
+
     return (
       <div className="App">
 
@@ -28,7 +42,7 @@ class App extends Component {
           id="section2"
         />
         <Section
-          title="team"
+          title="meet the team"
           subtitle={team}
           dark={true}
           id="section3"

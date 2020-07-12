@@ -147,11 +147,31 @@
   margin-bottom: 100px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+  box-sizing: border-box;
+}
+
+.col-lg {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
 .intro-image {
   max-width: 501px;
   max-height: 489px;
   width: auto;
   height: auto;
+  display: block;
 }
 
 .intro-text {
@@ -161,8 +181,7 @@
 }
 
 .intro-text-div {
-  padding: 20px;
-  padding-left: 50px;
+  padding-top: 20px;
 }
 
 .intro-content-bottom {
