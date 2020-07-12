@@ -10,6 +10,7 @@ import teamData from "./Components/teamData";
 import Team from "./Components/Team";
 import sponsors from "./Components/Sponsors";
 import Contact from "./Components/Contacts";
+import FAQs from "./Components/FAQs";
 
 class App extends Component {
 
@@ -54,10 +55,8 @@ class App extends Component {
           dark={false}
           id="section4"
         />
-        <Section
+        <FAQs
           title="FAQs"
-          subtitle={sponsors}
-          dark={true}
           id="section5"
         />
         <Contact
