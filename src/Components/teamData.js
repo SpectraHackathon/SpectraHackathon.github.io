@@ -23,7 +23,10 @@ const teamData = [
         img: Angela,
         name: "Angela Luo",
         role: "Event Planning & Webmaster",
-        socials1: linkedIn
+        socials1: linkedIn,
+        url1: "https://www.linkedin.com/in/theangelaluo/",
+        socials2: insta,
+        url2: "https://www.instagram.com/annglaluo/",
     },
     {
         id: 4,
@@ -71,7 +74,8 @@ const teamData = [
         img: Jessica,
         name: "Jessica Truong",
         role: "Hacker Experience",
-        socials1: linkedIn
+        socials1: linkedIn,
+        url1: "https://www.linkedin.com/in/truongjessica-tx/"
     },
     {
         id: 10,
@@ -85,7 +89,8 @@ const teamData = [
         img: Prathyusha,
         name: "Prathyusha Charagondla",
         role: "Marketing",
-        socials1: linkedIn
+        socials1: linkedIn,
+        url1: "https://www.linkedin.com/in/pcharagondla/",
     },
     {
         id: 12,
@@ -95,7 +100,9 @@ const teamData = [
         socials1: linkedIn,
         url1: "https://www.linkedin.com/in/jasmine-reyes-560a22144/",
         socials2: insta,
-        url2: "https://www.instagram.com/iamjasminereyes/"
+        url2: "https://www.instagram.com/iamjasminereyes/",
+        socials3: twitter,
+        url3: "https://twitter.com/pcharagondla/"
     },
     {
         id: 13,

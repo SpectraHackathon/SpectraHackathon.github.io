@@ -33,7 +33,7 @@ export default function MeetTheTeam({ title, subtitle, id }) {
               <img src={Ivy} width = "180" height = "180" id={2}/>
                 <h2 style={teamStyle}>Ivy Chen</h2>
                 <p style={roleColor}>Co-Director & Design</p>
-                <a href="" target="_blank"><img src={linkedIn} width = "20" height = "20"/></a>
+                <a href="https://www.instagram.com/ivavay.draw/" target="_blank"><img src={twitter} width = "20" height = "20"/></a>
             </div>
           </div>
 
