@@ -17,26 +17,17 @@ export default function WhatsTheSchedule({ title, dayOne, dayTwo, id }) {
 
           <h1>{title}</h1>
 
-        <div className="box">
-          <div className="row">
-            <div className="col-lg">
-                <h2 style={otherStyle}>Day 1 - 8/8/2020</h2>
-            </div>
-            <div className="col-lg">
-                <h2 style={otherStyle}>Day 2 - 8/9/2020</h2>
-            </div>
-          </div>
-        </div>
-
 
           <div className="faq-entry">
-          <div className="row">
-            <div className="col-lg">
-              {dayOne}
-            </div>
-            <div className="col-lg">
-              {dayTwo}
-            </div>
+            <div className="row">
+              <div className="col-lg">
+                <h2 className="box" style={otherStyle}>Day 1 - 8/8/2020</h2>
+                {dayOne}
+              </div>
+              <div className="col-lg">
+                <h2 className="box" style={otherStyle}>Day 2 - 8/9/2020</h2>
+                {dayTwo}
+              </div>
             </div>
           </div>
 

@@ -259,11 +259,8 @@ img.medium{
 }
 
 .box {
-  max-width: 1000px;
-  margin: 0 auto;
-  width: 1232px;
-  height: 80px;
-
+  padding-top: 10px;
+  height: 40px;
   background: #F16F6F;
   border-radius: 50px;
 }
