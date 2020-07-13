@@ -36,7 +36,7 @@ export default function Intro({ dark, id }) {
           <div className="value">
             <img className="value-image" src={placeholder} alt={"illustration of our values"}/>
             <h1>diversity</h1>
-            <p className="value-text">We look foward to hosting an event where people from diverse backgrounds can come and join for a shared passion in technology.</p>
+            <p className="value-text">We look forward to hosting an event where people from diverse backgrounds can come and join for a shared passion in technology.</p>
           </div>
           </div>
 
