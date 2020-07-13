@@ -50,19 +50,19 @@ class App extends Component {
           id="section1"
         />
         <WhatsTheSchedule
-         title="schedule"
+         title="Schedule"
          subtitle={schedule}
          dark={false}
          id="section2"
        />
         <MeetTheTeam
-          title="meet the team"
+          title="Meet the team"
           subtitle={team}
           dark={true}
           id="section3"
         />
         <MeetTheSponsors
-          title="sponsors"
+          title="Sponsors"
           subtitle={sponsors}
           dark={false}
           id="section4"

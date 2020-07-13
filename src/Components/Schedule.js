@@ -3,25 +3,25 @@ import React from "react";
 export default function Schedule(props) {
 
   const teamStyle = {
-    fontSize: "10px",
-    color: "#F16F6F"
+    color: "#F16F6F",
+    paddingRight: "40px",
+    marginRight: "10px",
+    textAlign: "left"
   }
 
   const roleColor = {
-    color: "#114A75"
+    color: "#114A75",
+    paddingRight: "40px",
   }
 
   return (
 
-    <div class="col-sched" style={teamStyle}>
+    <div class="col-sched">
+      <p style={teamStyle}>{props.item.time}</p>
 
-        <h1>{props.item.time}</h1>
-        <h1 style={roleColor}>{props.item.name}</h1>
 
+      <p style={roleColor}>{props.item.name}</p>
     </div>
-
-
-
 
   );
 }

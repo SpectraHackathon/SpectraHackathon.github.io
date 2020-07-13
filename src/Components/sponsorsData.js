@@ -4,7 +4,7 @@ const sponsorsData = [
     {
         id: 3,
         name: "Balsamiq",
-        size: "Small",
+        role: "Small",
         socials: "Facebook"
     },
     {

@@ -3,7 +3,6 @@ import React from "react";
 export default function Team(props) {
 
   const teamStyle = {
-    fontSize: "15px",
     color: "#114A75"
   }
 
@@ -16,9 +15,11 @@ export default function Team(props) {
     <div class="col-lg" style={teamStyle}>
 
         <img src={props.item.img} width = "180" height = "180"/>
-        <h1>{props.item.name}</h1>
+        <h2>{props.item.name}</h2>
         <p style={roleColor}>{props.item.role}</p>
-        <p>{props.item.socials}</p>
+        <a href={props.item.url1} target="_blank"><img src={props.item.socials1} width = "20" height = "20"/></a>
+        <a href={props.item.url2} target="_blank"><img src={props.item.socials2} width = "20" height = "20"/></a>
+        <a href={props.item.url3} target="_blank"><img src={props.item.socials3} width = "20" height = "20"/></a>
 
     </div>
 

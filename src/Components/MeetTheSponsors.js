@@ -7,7 +7,10 @@ export default function MeetTheSponsors({ title, subtitle, dark, id }) {
       <div className="section-content" id={id}>
 
           <h1>{title}</h1>
-          <p>{subtitle}</p>
+
+          <div className="row">
+            {subtitle}
+          </div>
 
       </div>
 
