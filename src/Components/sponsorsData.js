@@ -1,29 +1,32 @@
-
+import balsamiq from "./sponsorLogos/balsamiq.png";
+import hyperX from "./sponsorLogos/hyperX.png";
+import echoAR from "./sponsorLogos/echoAR.png";
+import bugsee from "./sponsorLogos/bugsee.png";
 
 const sponsorsData = [
     {
         id: 3,
+        img: balsamiq,
         name: "Balsamiq",
-        role: "Small",
-        socials: "Facebook"
+        size: "medium",
     },
     {
         id: 4,
+        img: hyperX,
         name: "HyperX",
-        role: "XSmall",
-        socials: "Facebook"
+        size: "small",
     },
     {
         id: 5,
+        img: echoAR,
         name: "EchoAR",
-        role: "XSmall",
-        socials: "Facebook"
+        size: "xsmall",
     },
     {
         id: 6,
-        name: "Bugsbee",
-        role: "XSmall",
-        socials: "Facebook"
+        img: bugsee,
+        name: "Bugsee",
+        size: "xsmall",
     }
 ]
 

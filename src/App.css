@@ -25,6 +25,25 @@ p {
   font-size: 18px;
 }
 
+img {
+  padding-right: 3px;
+  padding-left: 3px;
+  object-fit: contain;
+}
+
+img.xsmall{
+  width: 100px;
+  height: auto;
+}
+img.small{
+  width: 250px;
+  height: auto;
+}
+img.medium{
+  width: 250px;
+  height: auto;
+}
+
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
   background-color: var(--off-white);
