@@ -4,7 +4,7 @@ import placeholder from "./Images/placeholder.png"
 
 export default function Intro({ dark, id }) {
   return (
-    <div className={"introduction"}>
+    <div className="section-content">
       <div className="intro-content-top" id={id}>
         <div class="row">
           <div class="col-lg">
