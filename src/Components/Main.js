@@ -4,9 +4,8 @@ import line from "./Images/line.png"
 
 export default class Main extends Component {
 
-
-
   render() {
+
     return (
 
         <div className="background-img">
@@ -21,6 +20,8 @@ export default class Main extends Component {
               register to hack</a>
             <a className="main-button main-button-mentor" href="https://tinyurl.com/spectramentors" target="_blank" rel="noopener noreferrer">
               register to mentor</a>
+            <a className="main-button main-button-newsletter" href="http://eepurl.com/djGsIH" target="_blank" rel="noopener noreferrer">
+              sign up for our newsletter</a>
           </div>
 
         </div>

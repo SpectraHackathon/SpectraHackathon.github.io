@@ -146,6 +146,8 @@ img.medium{
   text-decoration: none;
   max-height: 65px;
   width: 60%;
+  max-width: 80%;
+  margin: 10px;
 }
 
 .main-aref {
@@ -158,6 +160,13 @@ img.medium{
 
 .main-button-mentor {
   background-color: #F7A3A3
+}
+
+.main-button-newsletter {
+  background-color: #f2e2a4;
+  font-size: 24px;
+  padding: 12px 14px;
+  margin-top: 23px;
 }
 
 .main-date {
