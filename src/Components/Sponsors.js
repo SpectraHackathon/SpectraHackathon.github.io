@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Team(props) {
+export default function Sponsors(props) {
 
   const teamStyle = {
     fontSize: "15px",
@@ -15,9 +15,7 @@ export default function Team(props) {
 
     <div class="col-lg" style={teamStyle}>
 
-        <h1>{props.item.name}</h1>
-        <p style={roleColor}>{props.item.role}</p>
-        <p>{props.item.socials}</p>
+        <img class={props.item.size} src={props.item.img} max-width="100%" height="auto"/>
 
     </div>
 
