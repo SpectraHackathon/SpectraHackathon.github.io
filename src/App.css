@@ -12,6 +12,19 @@
   src: url('./Components/Fonts/Roboto-Medium.ttf') format('truetype');
 }
 
+h1 {
+  font-size: 36px;
+  color: #114A75;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
   background-color: var(--off-white);
@@ -126,9 +139,10 @@
   font-family: 'MontserratAlternates', Arial, sans-serif;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 150px;
+  padding: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
-  border-style: solid;
 }
 
 .introduction {
@@ -149,7 +163,15 @@
   box-sizing: border-box;
 }
 
-.row:after {
+.row-sched {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -35px;
+  margin-left: -35px;
+  box-sizing: border-box;
+}
+
+.row:after, .row-sched:after {
   content: "";
   display: table;
   clear: both;
@@ -161,15 +183,30 @@
   max-width: 100%;
   position: relative;
   width: 100%;
-  padding-right: 20px;
+  padding-top: 10px;
+  padding-right: 5px;
   padding-left: 15px;
+  padding-bottom: 10px;
   box-sizing: border-box;
 }
 
 .col-sched {
   display: inline-flex;
-  float: left;
   width: 50%;
+  padding-left: 70px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+.box {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 1232px;
+  height: 80px;
+
+  background: #F16F6F;
+  border-radius: 50px;
 }
 
 .intro-image {
