@@ -184,6 +184,36 @@ img.medium{
   margin-bottom: 100px;
 }
 
+.intro-image {
+  max-width: 501px;
+  max-height: 489px;
+  min-width: 280px;
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-right: 40px;
+}
+
+.intro-text {
+  font-family: 'RobotoMedium', Arial, sans-serif;
+  color: #114A75;
+  line-height: 35px;
+}
+
+.intro-text-div {
+  padding: 0px 20px 0px 0px;
+  text-align: center;
+
+}
+
+.intro-content-bottom {
+  font-family: 'MontserratAlternates', Arial, sans-serif;
+  color: #114A75;
+  display: flex;
+  flex-direction: column;
+  text-align: center
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -236,32 +266,6 @@ img.medium{
 
   background: #F16F6F;
   border-radius: 50px;
-}
-
-.intro-image {
-  max-width: 501px;
-  max-height: 489px;
-  width: auto;
-  height: auto;
-  display: block;
-}
-
-.intro-text {
-  font-family: 'RobotoMedium', Arial, sans-serif;
-  color: #114A75;
-  line-height: 35px;
-}
-
-.intro-text-div {
-  padding-top: 20px;
-}
-
-.intro-content-bottom {
-  font-family: 'MontserratAlternates', Arial, sans-serif;
-  color: #114A75;
-  display: flex;
-  flex-direction: column;
-  text-align: center
 }
 
 .value {
