@@ -5,7 +5,7 @@ import FAQEntry from "./FAQEntry"
 export default function FAQs({ id, firstColQuestions, secondColQuestions }) {
 
   return (
-    <div className="contact" id={id}>
+    <div className="section-content" id={id}>
       <h1>FAQs</h1>
 
       <div className="faq-row">
