@@ -2,16 +2,17 @@ import React from "react";
 
 export default function Sponsors(props) {
 
-  const teamStyle = {
-    fontSize: "15px",
-    color: "#114A75"
+  const logo = {
+    alignItems: "center",
+    margin: "auto",
+    display: "table-cell",
   }
 
   return (
 
-    <div class="col-lg" style={teamStyle}>
+    <div class="col-lg" style={logo}>
 
-        <img class={props.item.size} src={props.item.img} max-width="100%" height="auto"/>
+        <img class={props.item.size} src={props.item.img}/>
 
     </div>
 

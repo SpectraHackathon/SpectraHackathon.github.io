@@ -13,7 +13,6 @@ export default function FAQEntry({ questionText, answer }) {
     setValue(value => ++value);
   }
 
-
   const question =
   <div className="faq-button">
     <h1 className="faq-question">{questionText}</h1>
@@ -22,14 +21,12 @@ export default function FAQEntry({ questionText, answer }) {
 
 
   return (
-    <div className="contact">
+    <div className="section-content">
       <div className="faq-entry" onClick={forceUpdate}>
         <Collapsible trigger={question}>
           <p className="faq-answer">{answer}</p>
           </Collapsible>
       </div>
-
-
     </div>
   );
 }

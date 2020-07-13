@@ -45,8 +45,8 @@ class App extends Component {
      const sponsors = this.state.sponsors.map(item => <Sponsors key={item.id} item={item}/>)
      const dayOne = this.state.dayOne.map(item => <Schedule key={item.id} item={item}/>)
      const dayTwo = this.state.dayTwo.map(item => <Schedule key={item.id} item={item}/>)
-     const firstColQuestions = this.state.firstColQuestions.map(item => <FAQEntry className="faq-entry" key={item.id} questionText={item.questionText} answer={item.answer}/>)
-     const secondColQuestions = this.state.secondColQuestions.map(item => <FAQEntry className="faq-entry" key={item.id} questionText={item.questionText} answer={item.answer}/>)
+     const firstColQuestions = this.state.firstColQuestions.map(item => <FAQEntry key={item.id} questionText={item.questionText} answer={item.answer}/>)
+     const secondColQuestions = this.state.secondColQuestions.map(item => <FAQEntry key={item.id} questionText={item.questionText} answer={item.answer}/>)
 
 
     return (

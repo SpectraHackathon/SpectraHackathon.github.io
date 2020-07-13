@@ -17,6 +17,10 @@ h1 {
   color: #114A75;
 }
 
+#section4 h1 {
+  padding-bottom: 40px;
+}
+
 h2 {
   font-size: 24px;
 }
@@ -168,7 +172,7 @@ img.medium{
   font-family: 'MontserratAlternates', Arial, sans-serif;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 100px;
+  padding: 80px 30px 40px 30px;
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
@@ -197,7 +201,7 @@ img.medium{
 .intro-text {
   font-family: 'RobotoMedium', Arial, sans-serif;
   color: #114A75;
-  line-height: 35px;
+  line-height: 30px;
 }
 
 .intro-text-div {
@@ -230,7 +234,7 @@ img.medium{
   box-sizing: border-box;
 }
 
-.row:after, .row-sched:after {
+.row:after, .row-sched:after, .faq-row:after {
   content: "";
   display: table;
   clear: both;
@@ -243,7 +247,7 @@ img.medium{
   position: relative;
   width: 100%;
   padding-top: 10px;
-  padding-right: 5px;
+  padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 10px;
   box-sizing: border-box;
@@ -286,6 +290,7 @@ img.medium{
 
 .value-text {
   font-family: 'RobotoMedium', Arial, sans-serif;
-  line-height: 35px;
+  line-height: 30px;
   text-align: left;
+  padding-left: 10px;
 }
