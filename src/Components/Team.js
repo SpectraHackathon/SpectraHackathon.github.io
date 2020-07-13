@@ -1,4 +1,5 @@
 import React from "react";
+import moon from "./teamImgs/moon.png";
 
 export default function Team(props) {
 
@@ -31,7 +32,8 @@ export default function Team(props) {
 
     <div class="col-lg" style={teamStyle}>
 
-        <img src={props.item.img} width = "180" height = "180"/>
+        <img class="circle" src={props.item.img} width = "180" height = "180"/>
+
         <h2>{props.item.name}</h2>
         <p style={roleColor}>{props.item.role}</p>
 

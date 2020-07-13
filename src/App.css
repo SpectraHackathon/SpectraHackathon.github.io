@@ -31,6 +31,16 @@ img {
   object-fit: contain;
 }
 
+.circle {
+    background-color:#f4efde;
+    border:4px solid #f4efde;
+    height:180px;
+    border-radius:50%;
+    border-radius:50%;
+    border-radius:50%;
+    width:180px;
+}
+
 img.xsmall{
   width: 100px;
   height: auto;

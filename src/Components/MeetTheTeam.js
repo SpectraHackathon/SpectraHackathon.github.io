@@ -22,7 +22,7 @@ export default function MeetTheTeam({ title, subtitle, id }) {
 
           <div className="row">
             <div className="col-lg">
-              <img src={Samar} width = "180" height = "180" id={1}/>
+              <img class="circle" src={Samar} id={1}/>
                 <h2 style={teamStyle}>Samar Barakat</h2>
                 <p style={roleColor}>Director & Webmaster</p>
                 <a href="https://twitter.com/sbarakitkat" target="_blank"><img src={twitter} width = "20" height = "20"/></a>
@@ -30,7 +30,7 @@ export default function MeetTheTeam({ title, subtitle, id }) {
               </div>
 
             <div className="col-lg">
-              <img src={Ivy} width = "180" height = "180" id={2}/>
+              <img class="circle" src={Ivy} width = "180" height = "180" id={2}/>
                 <h2 style={teamStyle}>Ivy Chen</h2>
                 <p style={roleColor}>Co-Director & Design</p>
                 <a href="https://www.instagram.com/ivavay.draw/" target="_blank"><img src={twitter} width = "20" height = "20"/></a>
