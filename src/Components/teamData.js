@@ -33,7 +33,8 @@ const teamData = [
         img: Savanna,
         name: "Savanna Yee",
         role: "Event Planning",
-        socials1: linkedIn
+        socials1: linkedIn,
+        url1: "https://www.linkedin.com/in/savanna-yee/",
     },
     {
         id: 5,
@@ -82,7 +83,12 @@ const teamData = [
         img: Nowreen,
         name: "Nowreen Hossain",
         role: "Hacker Experience & Marketing",
-        socials1: linkedIn
+        socials1: linkedIn,
+        url1: "https://www.linkedin.com/in/nowreenhossain/",
+        socials2: insta,
+        url2: "https://www.instagram.com/nowreen97/",
+        socials3: twitter,
+        url3: "https://twitter.com/tangnowreen/"
     },
     {
         id: 11,
