@@ -9,6 +9,11 @@
   letter-spacing: 1px;
 }
 
+.contact-spacing {
+  magin-top: 100px;
+  margin-bottom: 50px
+}
+
 .contact-headline {
   font-family: 'RobotoMedium', Arial, sans-serif;
   font-size: 18px;
@@ -43,7 +48,6 @@
 
 .faq-rotation {
   transform: rotateZ(180deg);
-  padding-right: 25px;
   transform-origin: center center
 }
 

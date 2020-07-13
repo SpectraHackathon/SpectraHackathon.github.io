@@ -12,7 +12,7 @@ const FAQData = [
     {
         id: 5,
         questionText: "What is the cost to attend?",
-        answer: "This event is free for all who attend! We’ll also be providing swag!"
+        answer: "This event is free for all who attend! We’ll be providing the workshops, activites, and swag!"
     },
     {
         id: 7,
