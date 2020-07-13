@@ -91,6 +91,8 @@ const teamData = [
         role: "Marketing",
         socials1: linkedIn,
         url1: "https://www.linkedin.com/in/pcharagondla/",
+        socials3: twitter,
+        url3: "https://twitter.com/pcharagondla/"
     },
     {
         id: 12,
@@ -101,8 +103,6 @@ const teamData = [
         url1: "https://www.linkedin.com/in/jasmine-reyes-560a22144/",
         socials2: insta,
         url2: "https://www.instagram.com/iamjasminereyes/",
-        socials3: twitter,
-        url3: "https://twitter.com/pcharagondla/"
     },
     {
         id: 13,
