@@ -45,6 +45,11 @@ img {
     width:180px;
 }
 
+img.logo {
+  width: 20px;
+  height: auto;
+}
+
 img.xsmall{
   width: 100px;
   height: auto;
@@ -60,6 +65,7 @@ img.medium{
 
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
+  font-size: 18px;
   background-color: var(--off-white);
   position: sticky;
   top: 0px;
@@ -79,8 +85,8 @@ img.medium{
 }
 
 .nav .nav-content {
-  max-width: 900px;
-  padding: 0rem 3rem;
+  max-width: 950px;
+  padding: 0rem 0rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -90,8 +96,8 @@ img.medium{
 
 .nav-item {
   display: inline;
-  margin-left: 2rem;
-  color: #333;
+  margin-right: 2rem;
+  color: #F16F6F;
 }
 
 .nav-item:hover {

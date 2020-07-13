@@ -1,6 +1,12 @@
 import React, { Component } from "react";
-import logo from "./Images/logo.png";
+
 import { Link, animateScroll as scroll } from "react-scroll";
+
+
+import fb from "./icons/fbPink.png";
+import insta from "./icons/instaPink.png";
+import twitter from "./icons/twitterPink.png";
+import linkedIn from "./icons/linkedPink.png";
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -8,15 +14,15 @@ export default class Navbar extends Component {
   };
 
   render() {
+
+    const logoStyle = {
+      marginLeft: "60px"
+    }
+
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          <img
-            src={logo}
-            className="nav-logo"
-            alt="Logo"
-            onClick={this.scrollToTop}
-          />
+
           <ul className="nav-items">
             <li className="nav-item">
               <Link
@@ -90,6 +96,28 @@ export default class Navbar extends Component {
                 Contact
               </Link>
             </li>
+
+            <li className="nav-item" style={logoStyle}>
+              <a href="https://www.facebook.com/sospectra/" target="_blank" rel="noopener noreferrer">
+                <img src={fb} className="logo"/>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="https://www.instagram.com/sospectra/" target="_blank" rel="noopener noreferrer">
+                <img src={insta} className="logo"/>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="https://twitter.com/sospectra" target="_blank" rel="noopener noreferrer">
+                <img src={twitter} className="logo"/>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="https://www.linkedin.com/company/sospectra/" target="_blank" rel="noopener noreferrer">
+                <img src={linkedIn} className="logo"/>
+              </a>
+            </li>
+
           </ul>
         </div>
       </nav>
