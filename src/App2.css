@@ -27,30 +27,6 @@
 }
 
 
-.Collapsible {
-
-}
-
-.Collapsible__trigger {
-
-}
-
-
-.Collapsible__trigger:after {
-  font-family: 'FontAwesome';
-  content: '\f107';
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  display: block;
-  transition: transform 300ms;
-  font-size: 45px;
-}
-
-.Collapsible__trigger.is-open:after {
-  transform: rotateZ(180deg);
-}
-
 
 .faq-button {
   background-color: #F16F6F;
@@ -73,7 +49,7 @@
 
 .faq-question {
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   padding: 5px;
   text-align: left;
   padding-left: 40px;
@@ -83,4 +59,24 @@
   margin-top: 20px;
   line-height: 35px;
   font-family: 'RobotoMedium', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.faq-row {
+  display: flex
+}
+
+.faq-col {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.last-faq {
+  align-self: center
+}
+
+.faq-entry {
+  align-self: flex-start;
 }
