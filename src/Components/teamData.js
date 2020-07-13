@@ -1,5 +1,5 @@
 import Angela from "./teamImgs/Angela.png";
-// import Savanna from "./teamImgs/Savanna.png";
+import Savanna from "./teamImgs/Savanna.png";
 // import Janice from "./teamImgs/Janice.png";
 import Jesslyn from "./teamImgs/Jesslyn.png";
 import Sanjim from "./teamImgs/Sanjim.png";
@@ -30,7 +30,7 @@ const teamData = [
     },
     {
         id: 4,
-        img: logo,
+        img: Savanna,
         name: "Savanna Yee",
         role: "Event Planning",
         socials1: linkedIn
