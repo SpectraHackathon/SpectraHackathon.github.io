@@ -1,14 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import Collapsible from 'react-collapsible';
+import down_arrow from "./down-arrow.png"
 
-export default function FAQEntry({ question, answer }) {
 
-  function showAnswer() {
-      alert('Hello!');
+
+export default function FAQEntry({ questionText, answer }) {
+
+
+  const [value, setValue] = useState(1); // integer state
+
+  function forceUpdate() {
+    setValue(value => ++value);
   }
 
+
+  const question =
+  <div className="faq-button">
+    <h1 className="faq-question">{questionText}</h1>
+    <img className={value % 2 === 0 ? "" : "faq-rotation" } src={down_arrow} alt={"down arrow"}/>
+  </div>
+
+
   return (
-    <div className="faq-entry">
-      <button className="main-button faq-button" onClick={showAnswer} href="#">{question}</button>
+    <div className="contact">
+      <div style={{width: '500px'}} onClick={forceUpdate}>
+        <Collapsible trigger={question}>
+          <p className="faq-answer">{answer}</p>
+          </Collapsible>
+      </div>
+
+
     </div>
   );
 }
