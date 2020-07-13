@@ -7,10 +7,6 @@ export default function Sponsors(props) {
     color: "#114A75"
   }
 
-  const roleColor = {
-    color: "#C0C0C0"
-  }
-
   return (
 
     <div class="col-lg" style={teamStyle}>

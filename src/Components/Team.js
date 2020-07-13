@@ -1,5 +1,4 @@
 import React from "react";
-import moon from "./teamImgs/moon.png";
 
 export default function Team(props) {
 

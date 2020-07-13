@@ -5,11 +5,7 @@ export default function Schedule(props) {
   const teamStyle = {
     color: "#F16F6F"
   }
-
-  const roleColor = {
-    color: "#114A75"
-  }
-
+  
   return (
 
     <div className="contact">
