@@ -23,7 +23,7 @@ export default function FAQEntry({ questionText, answer }) {
 
   return (
     <div className="contact">
-      <div style={{width: '500px'}} onClick={forceUpdate}>
+      <div className="faq-entry" onClick={forceUpdate}>
         <Collapsible trigger={question}>
           <p className="faq-answer">{answer}</p>
           </Collapsible>

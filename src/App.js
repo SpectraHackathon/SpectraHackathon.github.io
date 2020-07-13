@@ -19,6 +19,9 @@ import sponsorsData from "./Components/sponsorsData";
 
 import Contact from "./Components/Contacts";
 import FAQs from "./Components/FAQs";
+import FAQData from "./Components/FAQData";
+import FAQData2 from "./Components/FAQData2";
+import FAQEntry from "./Components/FAQEntry";
 
 class App extends Component {
 
@@ -27,7 +30,9 @@ class App extends Component {
         this.state = {
             teams:teamData,
             sponsors: sponsorsData,
-            schedule: schedulesData
+            schedule: schedulesData,
+            firstColQuestions: FAQData,
+            secondColQuestions: FAQData2
         }
 
     }
@@ -37,6 +42,8 @@ class App extends Component {
      const team = this.state.teams.map(item => <Team key={item.id} item={item}/>)
      const sponsors = this.state.sponsors.map(item => <Sponsors key={item.id} item={item}/>)
      const schedule = this.state.schedule.map(item => <Schedule key={item.id} item={item}/>)
+     const firstColQuestions = this.state.firstColQuestions.map(item => <FAQEntry className="faq-entry" key={item.id} questionText={item.questionText} answer={item.answer}/>)
+     const secondColQuestions = this.state.secondColQuestions.map(item => <FAQEntry className="faq-entry" key={item.id} questionText={item.questionText} answer={item.answer}/>)
 
 
     return (
@@ -69,6 +76,8 @@ class App extends Component {
         />
         <FAQs
           title="FAQs"
+          firstColQuestions={firstColQuestions}
+          secondColQuestions={secondColQuestions}
           id="section5"
         />
         <Contact
