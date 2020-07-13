@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Collapsible from 'react-collapsible';
-import down_arrow from "./down-arrow.png"
+import down_arrow from "./Images/down-arrow.png"
 
 
 

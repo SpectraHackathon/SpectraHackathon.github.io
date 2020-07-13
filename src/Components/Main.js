@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
-import line from "./line.png"
+import line from "./Images/line.png"
 
 export default class Main extends Component {
 

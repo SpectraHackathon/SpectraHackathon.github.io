@@ -1,6 +1,6 @@
 import React from "react";
-import introImage from "./intro-image.png"
-import placeholder from "./placeholder.png"
+import introImage from "./Images/intro-image.png"
+import placeholder from "./Images/placeholder.png"
 
 export default function Intro({ dark, id }) {
   return (
@@ -23,7 +23,7 @@ export default function Intro({ dark, id }) {
         <div className="list-values">
 
         <div class="row">
-        
+
         <div class="col-lg">
           <div className="value">
             <img className="value-image" src={placeholder} alt={"illustration of our values"}/>
