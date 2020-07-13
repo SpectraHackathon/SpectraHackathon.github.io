@@ -7,7 +7,8 @@ import Intro from "./Components/Intro";
 
 import WhatsTheSchedule from "./Components/WhatsTheSchedule";
 import Schedule from "./Components/Schedule";
-import schedulesData from "./Components/schedulesData";
+import dayOneData from "./Components/dayOneData";
+import dayTwoData from "./Components/dayTwoData";
 
 import MeetTheTeam from "./Components/MeetTheTeam";
 import Team from "./Components/Team";
@@ -30,7 +31,8 @@ class App extends Component {
         this.state = {
             teams:teamData,
             sponsors: sponsorsData,
-            schedule: schedulesData,
+            dayOne: dayOneData,
+            dayTwo: dayTwoData,
             firstColQuestions: FAQData,
             secondColQuestions: FAQData2
         }
@@ -41,7 +43,8 @@ class App extends Component {
 
      const team = this.state.teams.map(item => <Team key={item.id} item={item}/>)
      const sponsors = this.state.sponsors.map(item => <Sponsors key={item.id} item={item}/>)
-     const schedule = this.state.schedule.map(item => <Schedule key={item.id} item={item}/>)
+     const dayOne = this.state.dayOne.map(item => <Schedule key={item.id} item={item}/>)
+     const dayTwo = this.state.dayTwo.map(item => <Schedule key={item.id} item={item}/>)
      const firstColQuestions = this.state.firstColQuestions.map(item => <FAQEntry className="faq-entry" key={item.id} questionText={item.questionText} answer={item.answer}/>)
      const secondColQuestions = this.state.secondColQuestions.map(item => <FAQEntry className="faq-entry" key={item.id} questionText={item.questionText} answer={item.answer}/>)
 
@@ -53,25 +56,22 @@ class App extends Component {
         <Main />
 
         <Intro
-          dark={true}
           id="section1"
         />
         <WhatsTheSchedule
          title="Schedule"
-         subtitle={schedule}
-         dark={false}
+         dayOne={dayOne}
+         dayTwo={dayTwo}
          id="section2"
        />
         <MeetTheTeam
           title="Meet the team"
           subtitle={team}
-          dark={true}
           id="section3"
         />
         <MeetTheSponsors
           title="Sponsors"
           subtitle={sponsors}
-          dark={false}
           id="section4"
         />
         <FAQs

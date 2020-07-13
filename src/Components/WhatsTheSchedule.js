@@ -1,17 +1,12 @@
 import React from "react";
 
 
-export default function WhatsTheSchedule({ title, subtitle, dark, id }) {
+export default function WhatsTheSchedule({ title, dayOne, dayTwo, id }) {
 
-  const teamStyle = {
-    color: "white",
-    textAlign: "left",
-  }
 
   const otherStyle = {
     color: "white",
-    textAlign: "left",
-    paddingLeft: "50px"
+    textAlign: "center",
   }
 
 
@@ -25,7 +20,7 @@ export default function WhatsTheSchedule({ title, subtitle, dark, id }) {
         <div className="box">
           <div className="row">
             <div className="col-lg">
-                <h2 style={teamStyle}>Day 1 - 8/8/2020</h2>
+                <h2 style={otherStyle}>Day 1 - 8/8/2020</h2>
             </div>
             <div className="col-lg">
                 <h2 style={otherStyle}>Day 2 - 8/9/2020</h2>
@@ -34,8 +29,15 @@ export default function WhatsTheSchedule({ title, subtitle, dark, id }) {
         </div>
 
 
-          <div className="row-sched">
-            {subtitle}
+          <div className="faq-entry">
+          <div className="row">
+            <div className="col-lg">
+              {dayOne}
+            </div>
+            <div className="col-lg">
+              {dayTwo}
+            </div>
+            </div>
           </div>
 
 
