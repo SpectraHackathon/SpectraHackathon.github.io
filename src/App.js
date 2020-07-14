@@ -24,10 +24,18 @@ import FAQData from "./Components/FAQData";
 import FAQData2 from "./Components/FAQData2";
 import FAQEntry from "./Components/FAQEntry";
 
+import ReactGA from 'react-ga';
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-77365611-1');
+    ReactGA.pageview(window.location.pathname);
+}
+
 class App extends Component {
 
   constructor() {
         super()
+        initializeReactGA()
         this.state = {
             teams:teamData,
             sponsors: sponsorsData,
