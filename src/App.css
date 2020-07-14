@@ -167,7 +167,7 @@ a-href{
 
 }
 
-.background-img{
+.background-img {
   background-image: url("background-img.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -177,17 +177,35 @@ a-href{
   font-family: 'MontserratAlternates', Arial, sans-serif;
   text-align: center;
   color: white;
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  overflow: hidden;
+}
+
+.topSquiggle {
+  display: flex;
+  margin: auto;
+  margin-left: 40%;
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+.bottomSquiggle {
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 35px;
 }
 
 .main-section {
-  margin-top: -200px;
-  display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
+  text-align: center;
+
 }
 
 .main-title {
@@ -210,6 +228,18 @@ a-href{
   width: 60%;
   max-width: 80%;
   margin: 10px;
+  justify-content: center;
+}
+
+.col-bt {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .main-aref {
@@ -227,8 +257,6 @@ a-href{
 .main-button-newsletter {
   background-color: #f2e2a4;
   font-size: 24px;
-  padding: 12px 14px;
-  margin-top: 23px;
 }
 
 .main-date {
