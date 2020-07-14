@@ -3,11 +3,14 @@ import React from "react";
 export default function Team(props) {
 
   const teamStyle = {
-    color: "#114A75"
+    color: "#114A75",
+    marginBottom: "10px",
   }
 
   const roleColor = {
-    color: "#C0C0C0"
+    color: "#C0C0C0",
+    marginTop: "0px",
+    marginBottom: "20px"
   }
 
   var yesLinkedin;
@@ -29,11 +32,11 @@ export default function Team(props) {
   }
   return (
 
-    <div class="col-lg" style={teamStyle}>
+    <div class="col-lg team-member" >
 
         <img class="circle" src={props.item.img} width = "180" height = "180"/>
 
-        <h2>{props.item.name}</h2>
+        <h2 style={teamStyle}>{props.item.name}</h2>
         <p style={roleColor}>{props.item.role}</p>
 
         {yesLinkedin}

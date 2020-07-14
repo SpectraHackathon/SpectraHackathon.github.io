@@ -64,6 +64,7 @@
   line-height: 35px;
   font-family: 'RobotoMedium', Arial, sans-serif;
   font-size: 15px;
+  color: #114A75;
 }
 
 .faq-row {
@@ -84,4 +85,18 @@
 
 .faq-entry {
   align-self: flex-start;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.team-member {
+  margin-bottom: 20px;
+  font-family: 'RobotoMedium', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.schedule-item {
+  padding: 15px
 }
