@@ -74,7 +74,6 @@ img.medium{
 
   position: sticky;
   width: 6rem;
-  height: 100vh;
   position: fixed;
   z-index: 1000;
 }
@@ -96,7 +95,7 @@ img.medium{
   align-items: center;
   flex-direction: column;
   height: 100%;
-  margin-top: 160px;
+  margin-top: 180px;
 }
 
 .nav-item {
