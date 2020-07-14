@@ -1,6 +1,6 @@
 import Angela from "./teamImgs/Angela.png";
 import Savanna from "./teamImgs/Savanna.png";
-// import Janice from "./teamImgs/Janice.png";
+import Janice from "./teamImgs/Janice.png";
 import Jesslyn from "./teamImgs/Jesslyn.png";
 import Sanjim from "./teamImgs/Sanjim.png";
 import Yamini from "./teamImgs/Yamini.png";
@@ -38,7 +38,7 @@ const teamData = [
     },
     {
         id: 5,
-        img: logo,
+        img: Janice,
         name: "Janice Liu",
         role: "Event Planning",
         socials1: linkedIn
