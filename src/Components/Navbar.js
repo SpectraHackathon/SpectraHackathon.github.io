@@ -15,10 +15,6 @@ export default class Navbar extends Component {
 
   render() {
 
-    const logoStyle = {
-      marginLeft: "60px"
-    }
-
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
@@ -97,7 +93,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
 
-            <li className="nav-item" style={logoStyle}>
+            <li className="nav-item">
               <a href="https://www.facebook.com/sospectra/" target="_blank" rel="noopener noreferrer">
                 <img src={fb} className="logo"/>
               </a>
