@@ -7,11 +7,14 @@ import linkedIn from "./icons/linkedGray.png";
 export default function MeetTheTeam({ title, subtitle, id }) {
 
   const teamStyle = {
-    color: "#114A75"
+    color: "#114A75",
+    marginBottom: "10px"
   }
 
   const roleColor = {
-    color: "#C0C0C0"
+    color: "#C0C0C0",
+    marginTop: "0px",
+    marginBottom: "20px"
   }
 
   return (
@@ -21,7 +24,7 @@ export default function MeetTheTeam({ title, subtitle, id }) {
           <h1>{title}</h1>
 
           <div className="row">
-            <div className="col-lg">
+            <div className="col-lg team-member">
               <img class="circle" src={Samar} id={1}/>
                 <h2 style={teamStyle}>Samar Barakat</h2>
                 <p style={roleColor}>Director & Webmaster</p>
@@ -29,7 +32,7 @@ export default function MeetTheTeam({ title, subtitle, id }) {
                 <a href="https://www.linkedin.com/in/sbarakitkat/" target="_blank"><img src={linkedIn} width = "20" height = "20"/></a>
               </div>
 
-            <div className="col-lg">
+            <div className="col-lg team-member">
               <img class="circle" src={Ivy} width = "180" height = "180" id={2}/>
                 <h2 style={teamStyle}>Ivy Chen</h2>
                 <p style={roleColor}>Co-Director & Design</p>

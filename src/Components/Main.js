@@ -10,17 +10,17 @@ export default class Main extends Component {
 
   initializeReactGAHack() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Register to Hack'})
+      ReactGA.event({category: 'Main', action: 'Clicked Register to Hack'})
   };
 
   initializeReactGAMentor() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Register to Mentor'})
+      ReactGA.event({category: 'Main', action: 'Clicked Register to Mentor'})
   };
 
   initializeReactGANewsletter() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Sign up for Newsletter'})
+      ReactGA.event({category: 'Main', action: 'Clicked Sign up for Newsletter'})
   };
 
   render() {
@@ -39,7 +39,7 @@ export default class Main extends Component {
 
             <div className="main-date">
               <img src={line} alt={"horizontal white line"}/>
-              <h2 className="main-date-text">8/8-8/9/2020</h2>
+              <h2 className="main-date-text">sat 8/8 - sun 8/9/2020</h2>
               <img src={line} alt={"horizontal white line"}/>
             </div>
 

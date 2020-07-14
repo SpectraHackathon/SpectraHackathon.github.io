@@ -21,8 +21,8 @@ export default function FAQEntry({ questionText, answer }) {
 
 
   return (
-    <div className="section-content">
-      <div className="faq-entry" onClick={forceUpdate}>
+    <div className="faq-entry">
+      <div className="" onClick={forceUpdate}>
         <Collapsible trigger={question}>
           <p className="faq-answer">{answer}</p>
           </Collapsible>

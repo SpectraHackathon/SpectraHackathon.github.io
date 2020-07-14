@@ -17,53 +17,53 @@ export default class Navbar extends Component {
 
   initializeReactGAIntro() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked About on NavBar'})
+      ReactGA.event({category: 'NavBar', action: 'Clicked About on NavBar'})
   };
 
   initializeReactGASchedule() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Schedule on NavBar'})
+      ReactGA.event({category: 'NavBar', action: 'Clicked Schedule on NavBar'})
   };
 
 
   initializeReactGATeam() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Team on NavBar'})
+      ReactGA.event({category: 'NavBar', action: 'Clicked Team on NavBar'})
   };
 
   initializeReactGASponsors() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Sponsors on NavBar'})
+      ReactGA.event({category: 'NavBar', action: 'Clicked Sponsors on NavBar'})
   };
 
   initializeReactGAFAQ() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked FAQs on NavBar'})
+      ReactGA.event({category: 'NavBar', action: 'Clicked FAQs on NavBar'})
   };
 
   initializeReactGAContact() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Contact on NavBar'})
+      ReactGA.event({category: 'NavBar', action: 'Clicked Contact on NavBar'})
   };
 
   initializeReactGACFB() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Facebook on NavBar'})
+      ReactGA.event({category: 'Socials', action: 'Clicked Facebook on NavBar'})
   };
 
   initializeReactGAIG() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Instagram on NavBar'})
+      ReactGA.event({category: 'Socials', action: 'Clicked Instagram on NavBar'})
   };
 
   initializeReactGATwitter() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked Twitter on NavBar'})
+      ReactGA.event({category: 'Socials', action: 'Clicked Twitter on NavBar'})
   };
 
   initializeReactGALinkedin() {
       ReactGA.initialize('UA-77365611-1');
-      ReactGA.event({category: 'User', action: 'Clicked LinkedIn on NavBar'})
+      ReactGA.event({category: 'Socials', action: 'Clicked LinkedIn on NavBar'})
   };
 
 
