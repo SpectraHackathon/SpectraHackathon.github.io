@@ -67,15 +67,18 @@ img.medium{
 /*when screen is small size*/
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   background-color: var(--off-white);
   opacity: 0.5;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 60px;
 
   position: sticky;
-  width: 6rem;
+  width: 5.8rem;
   position: fixed;
   z-index: 1000;
+  margin-top: 350px;
+  margin-left: 10px;
 }
 
 .nav-logo {
@@ -95,7 +98,7 @@ img.medium{
   align-items: center;
   flex-direction: column;
   height: 100%;
-  margin-top: 180px;
+  margin-top: 0px;
 }
 
 .nav-item {
@@ -104,10 +107,11 @@ img.medium{
   padding: 10px 10px 10px 10px;
   color: #F16F6F;
   font-weight: bold;
+  text-align: center;
 }
 
 ul {
-  padding-inline-start: 8px;
+  padding-inline-start: 0px;
 }
 
 a-href{
@@ -132,6 +136,7 @@ a-href{
     height: 60px;
     z-index: 1000;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 0px;
   }
 
   .nav-logo {
