@@ -67,7 +67,7 @@ img.medium{
 /*when screen is small size*/
 .nav {
   font-family: 'MontserratAlternates', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   background-color: var(--off-white);
   opacity: 0.5;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
@@ -77,7 +77,7 @@ img.medium{
   width: 5.8rem;
   position: fixed;
   z-index: 1000;
-  margin-top: 350px;
+  margin-top: 280px;
   margin-left: 10px;
 }
 
@@ -104,7 +104,7 @@ img.medium{
 .nav-item {
   list-style: none;
   margin-right: 0rem;
-  padding: 10px 10px 10px 10px;
+  padding: 8px 8px 8px 8px;
   color: #F16F6F;
   font-weight: bold;
   text-align: center;
@@ -271,7 +271,7 @@ a-href{
 
 .main-title {
   color: white;
-  font-size: 74px;
+  font-size: 64px;
   padding-bottom: 0px;
 }
 
