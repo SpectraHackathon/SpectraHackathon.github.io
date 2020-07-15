@@ -423,3 +423,9 @@ a-href{
   text-align: left;
   padding-left: 10px;
 }
+
+.schedule-title {
+  font-family: 'RobotoMedium', Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}

@@ -12,7 +12,7 @@ export default function Schedule(props) {
         <div className="faq-col" style={teamStyle} >
           {props.item.time}
         </div>
-        <div className="faq-col">
+        <div className="faq-col schedule-title">
           {props.item.name}
         </div>
       </div>
