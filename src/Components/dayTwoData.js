@@ -13,7 +13,7 @@ const dayTwoData = [
     {
         id: 6,
         time: "10am - 2pm",
-        name: "Mix of workshops, break activities, netwokring"
+        name: "Mix of workshops, break activities, networking"
     },
     {
         id: 8,
