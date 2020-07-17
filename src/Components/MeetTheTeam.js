@@ -1,6 +1,5 @@
 import React from "react";
 import Samar from "./teamImgs/Samar.png";
-import Ivy from "./teamImgs/Ivy.png";
 import twitter from "./icons/twitterGray.png";
 import linkedIn from "./icons/linkedGray.png";
 
@@ -32,12 +31,6 @@ export default function MeetTheTeam({ title, subtitle, id }) {
                 <a href="https://www.linkedin.com/in/sbarakitkat/" target="_blank"><img src={linkedIn} width = "20" height = "20"/></a>
               </div>
 
-            <div className="col-lg team-member">
-              <img class="circle" src={Ivy} width = "180" height = "180" id={2}/>
-                <h2 style={teamStyle}>Ivy Chen</h2>
-                <p style={roleColor}>Co-Director & Design</p>
-                <a href="https://www.instagram.com/ivavay.draw/" target="_blank"><img src={twitter} width = "20" height = "20"/></a>
-            </div>
           </div>
 
           <div className="row">

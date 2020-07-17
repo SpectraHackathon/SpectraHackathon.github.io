@@ -8,6 +8,7 @@ import Jessica from "./teamImgs/Jessica.png";
 import Nowreen from "./teamImgs/Nowreen.png";
 import Prathyusha from "./teamImgs/Prathyusha.png";
 import Jasmine from "./teamImgs/Jasmine.png";
+import Ivy from "./teamImgs/Ivy.png";
 import Danielle from "./teamImgs/Danielle.png";
 
 import insta from "./icons/instaGray.png";
@@ -112,6 +113,14 @@ const teamData = [
     },
     {
         id: 13,
+        img: Ivy,
+        name: "Ivy Chen",
+        role: "Design & Marketing",
+        socials1: insta,
+        url1: "https://www.instagram.com/ivavay.draw/",
+    },
+    {
+        id: 14,
         img: Danielle,
         name: "Danielle Del Rosario",
         role: "Design & Marketing",
