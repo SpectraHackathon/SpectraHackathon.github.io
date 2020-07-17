@@ -55,12 +55,19 @@ img.xsmall{
   width: 100px;
   height: auto;
 }
+
 img.small{
   width: 250px;
   height: auto;
 }
+
 img.medium{
   width: 250px;
+  height: auto;
+}
+
+img.large{
+  width: 450px;
   height: auto;
 }
 
